@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-icon">🔔</div>
+  <div class="card-body">
+    <h2>Zone de notifications</h2>
+    <p>Vous avez <strong>{{ count() }}</strong> nouvelles notifications.</p>
+
+    <button class="btn" (click)="toggle()">
+      {{ visible() ? 'Masquer les notifications' : 'Afficher les notifications' }}
+    </button>
+
+    @if (visible()) {
+      <ul>
+        @for (notif of notifications(); track $index) {
+          <li>{{ notif }}</li>
+        }
+      </ul>
+    }
+  </div>
+</div>

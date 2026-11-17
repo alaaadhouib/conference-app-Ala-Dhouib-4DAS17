@@ -1,0 +1,5 @@
+<nav class="navbar">
+  @for (link of links(); track link) {
+    <button [class.active]="active() === link" (click)="select(link)">{{ link }}</button>
+  }
+</nav>

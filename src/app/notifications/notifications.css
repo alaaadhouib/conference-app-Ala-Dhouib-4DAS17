@@ -1,0 +1,22 @@
+:host {
+  --accent: #f59e0b;
+  --accent-soft: #fff4dc;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+.btn {
+  background: #f59e0b;
+}
+
+ul {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: #4b5563;
+}
+
+li {
+  margin-bottom: 6px;
+}

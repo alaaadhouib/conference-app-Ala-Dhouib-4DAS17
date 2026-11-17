@@ -1,0 +1,36 @@
+:host {
+  --accent: #1f9d6b;
+  --accent-soft: #e6f6ef;
+}
+
+.add {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  background: #1f9d6b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+li {
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #e6f6ef;
+  color: #166b49;
+  font-weight: 500;
+}
+
+li.empty {
+  background: none;
+  color: #6b7280;
+  padding: 0;
+}

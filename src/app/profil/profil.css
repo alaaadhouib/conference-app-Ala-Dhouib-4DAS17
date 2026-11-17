@@ -1,0 +1,8 @@
+:host {
+  --accent: #2f6db5;
+  --accent-soft: #e8f0fe;
+}
+
+p {
+  margin: 8px 0;
+}
